@@ -1,0 +1,33 @@
+# 稿件与审稿草稿属于保密材料，永远不进仓库。
+# 这个目录是审稿工作台，以后会放待审的投稿稿件和还没交的审稿意见草稿。
+# 那些文件对作者和会议都有保密义务，一旦进了 git 历史就很难真正删掉。
+# 下面的规则只是兜底，不是许可：没被列出的保密文件同样不许提交，
+# 每次提交前自己跑一遍 git status 看清楚都加了什么。
+
+# 稿件正文与审稿产物的常见格式
+*.pdf
+*.docx
+*.doc
+*.tex
+*.zip
+
+# 保密目录
+manuscripts/
+papers/
+submissions/
+reviews/
+drafts/
+scratch/
+
+# Python 与虚拟环境
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,5 @@
+# cri-paper
+
+一个学术审稿人的工作台。这里放的是「审稿人自己怎么用 AI 辅助审稿」的调研与工作流，不是审稿对象。第一阶段的四份中文报告在 `survey/`，入口是 [`survey/00-总览与推荐工作流.md`](survey/00-总览与推荐工作流.md)——它把各家会议与出版商的政策收成三档，给出一条每篇 20–30 分钟能照做的流程，另外三份报告是它的依据。项目对 agent 的约定见 [`AGENT.md`](AGENT.md)。**本仓库不含任何稿件内容**：待审的投稿原文、参考文献列表与审稿意见草稿都属于保密材料，永远不进版本控制，`.gitignore` 里写明了红线。
+
+A peer reviewer's workbench. What lives here is research on how a reviewer may use AI assistance during review, not the material under review. The first-phase reports (in Chinese) are in `survey/`; start from [`survey/00-总览与推荐工作流.md`](survey/00-总览与推荐工作流.md), which sorts venue and publisher policies into three tiers and distills them into a 20–30 minute per-paper workflow, with the other three reports as its evidence base. Working conventions for agents are in [`AGENT.md`](AGENT.md). **This repository contains no manuscript content.** Submissions under review, their reference lists, and draft review reports are confidential and never enter version control; the red line is stated at the top of `.gitignore`.
