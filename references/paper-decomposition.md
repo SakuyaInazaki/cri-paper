@@ -4,7 +4,7 @@
 
 ## 铁律（规格 §0）
 
-**一、每个条目必带锚点。** 写法固定为 `p{页} §{节} {Fig|Tab|Eq|Thm|Alg|Ref}{号}`，例子是 `p5 §4.2 Tab2`、`p3 Eq7`、`p12 Ref31`。页码用 PDF 物理页从 1 起数，跟 `pdftotext -f N -l N` 的口径一致，不要用页眉上印的页码。配不上位置的条目写 `anchor:none`，它算待核，不能直接进意见。bbox 是可选扩展字段，只有跑了 pdffigures2 或 GROBID 拿到坐标时才填。
+**一、每个条目必带锚点。** 写法固定为 `p{页} §{节} {Fig|Tab|Eq|Thm|Alg|Ref}{号}`，例子是 `p5 §4.2 Tab2`、`p3 Eq7`、`p12 Ref31`。页码必填，节号与对象号按需给，`p3 Eq7`、`p12 Ref31` 这类省了节号的写法合法（规格 §6.2）。页码用 PDF 物理页从 1 起数，跟 `pdftotext -f N -l N` 的口径一致，不要用页眉上印的页码。配不上位置的条目写 `anchor:none`，它算待核，不能直接进意见。bbox 是可选扩展字段，只有跑了 pdffigures2 或 GROBID 拿到坐标时才填。
 
 **二、每个条目分两栏。** `fact` 栏放从稿件里提取的事实，抄原话时加引号；`judgement` 栏放审稿人判断。另外三栏是 `severity`（高/中/低）、`confidence`（高/中/低）、`action`（无 / 要求作者澄清 / 转编辑走完整性流程）。fact 栏出现"不充分""不合理"这种词就是串栏了，挪回 judgement。
 
