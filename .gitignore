@@ -19,6 +19,12 @@ reviews/
 drafts/
 scratch/
 
+# 论文卡兜底：卡片里逐条抄着稿件原文，属审稿草稿，走错目录也不许提交。
+# 空白模板叫 templates/paper-card.md，已用否定规则放行；
+# examples/ 下的骨架示例叫 *-skeleton.md，不受这条影响。
+paper-card*.md
+!templates/paper-card.md
+
 # Python 与虚拟环境
 .venv/
 venv/
